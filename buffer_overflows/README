@@ -1,12 +1,18 @@
-Instructions for Programs
-exit Vim -> :wq
+INSTRUCTIONS FOR RUNNING PROGRAM
 
 For buf1.c
 1. gcc -o buf1 buf1.c
-2. ./buf1 `python -c 'print("A" * 32')` 
+2. ./buf1 `python -c 'print("A" * 32')`
 
 For heap_ovr_1.c
 1. gcc -m32 -z execstack -fno-stack-protector heap_ovr_1.c -o heap_ovr
-This compiles as 32bit and ignores stack protectors
-note, it takes no arguments
+2. ./heap_ovr
 
+This compiles as 32bit and ignores stack protectors
+Note, it takes no arguments
+Also, you may need to install an extend gcc package to run a 32bit compile.  Only using 32 bit because the assembly is easier to read. 
+
+TO SEE ASSEMBLY
+gdb ./program_name
+
+disas <function name>
