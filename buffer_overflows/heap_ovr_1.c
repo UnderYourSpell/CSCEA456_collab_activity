@@ -24,7 +24,7 @@ int main(int argc, char* argv[]){ //v0
     setuid(1000);
     if(argc > 1){ //argument entered, don't accept, we don't have args
             printf("There is no usage\n");
-            exit(1);
+ 	return 1;
     }
     checkpw();
     return 0;

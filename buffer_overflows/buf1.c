@@ -1,5 +1,7 @@
 //test program
 #include <stdio.h>
+#include <string.h>
+
 
 int overflow(char* input1){
     char buff[16]; //stack buffer of 16 bytes
