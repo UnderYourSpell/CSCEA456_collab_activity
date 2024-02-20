@@ -16,3 +16,6 @@ TO SEE ASSEMBLY
 gdb ./program_name
 
 disas <function name>
+
+For book_ex.c
+Simple example of a program with an unsafe function you can easily cause a buffer overflow on
