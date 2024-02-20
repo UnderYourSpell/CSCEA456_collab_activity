@@ -1,0 +1,7 @@
+22 is the limit
+16 byte buffer, we can give it 22 then we smash the stack
+
+need to find where the hello function is being executed: 0x1189
+
+24 bytes below stack pointer: AAAAAAAAAAAAAAAAAAAAAAAA
+proved to be quite difficult

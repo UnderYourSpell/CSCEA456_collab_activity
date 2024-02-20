@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 void hello(char *tag){
     char inp[16];
@@ -8,7 +9,8 @@ void hello(char *tag){
 }
 
 int main(int argc,char *argv[]){
-    hello(argv[1]);
+	hello(argv[1]);
+	return 0;
 }
 
-//can easily cauase oveflow here, 16 bytes only
+
