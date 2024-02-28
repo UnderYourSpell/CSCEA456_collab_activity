@@ -11,3 +11,6 @@ Hello, today our team will be demonstrating a few examples of overflow attacks a
 7. put these address into the scary input
 8. copy the scary input into terminal and run
 9. result should run hello function twice!
+
+commands:
+gcc -m32 -o demo demo.c

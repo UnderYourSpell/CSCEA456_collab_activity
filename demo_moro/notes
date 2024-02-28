@@ -2,3 +2,5 @@ notes
 
 - hello
 -saved frame pointer
+
+gcc -fno-stack-protector -m32 -o demo demo.c
