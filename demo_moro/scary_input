@@ -1,0 +1,6 @@
+perl -e 'print pack("H*", "414243444546474748485155565758616263666775||a4e4e4e4e0a");' | ./demo
+
+24 Bytes of content to fill buffer
+ABCDEFGHQRSTUVWXabcdefgh 
+
+| b8110000bd110000 | - just in case

