@@ -1,6 +1,6 @@
 notes
 
-- hello
+0x11ad- hello
 -saved frame pointer
-
+0x000011f3
 gcc -fno-stack-protector -m32 -o demo demo.c
